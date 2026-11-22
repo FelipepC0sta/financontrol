@@ -1,0 +1,68 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: #f4f6f9;
+}
+
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8px;
+    -fx-padding: 16px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8px;
+}
+
+.titulo {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e293b;
+}
+
+.card-saldo {
+    -fx-background-color: #2563eb;
+    -fx-background-radius: 8px;
+    -fx-padding: 12px 18px;
+}
+
+.card-receita {
+    -fx-background-color: #10b981;
+    -fx-background-radius: 8px;
+    -fx-padding: 12px 18px;
+}
+
+.card-despesa {
+    -fx-background-color: #ef4444;
+    -fx-background-radius: 8px;
+    -fx-padding: 12px 18px;
+}
+
+.card-divida {
+    -fx-background-color: #d97706;
+    -fx-background-radius: 8px;
+    -fx-padding: 12px 18px;
+}
+
+.texto-branco {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.valor-resumo {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.btn-primario {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.btn-perigo {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
